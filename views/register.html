@@ -33,6 +33,88 @@
 					11. Submit Button (links to home page)
 
 			-->
+			<table class = "table">
+				<tr>
+					<th colspan="2">
+						<h3> Full <br> Name</h3>
+					</th>
+					<th>
+						<input type="text" name="userName" placeholder="Enter Name">
+					</th>
+				</tr>
+				<tr>
+					<th colspan="2">
+						<h3>Email<br>Address</h3>
+					</th>
+					<th>
+						<input type="text" name = "userEmail" placeholder="Enter an Email">
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<h3>Password</h3>
+					</th>
+					<th>
+						<input type = "Password" name = "userPassword" placeholder="Password">
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<h3>Confirm Password</h3>
+					</th>
+					<th>
+						<input type = "Password" name = "userPasswordCONFIRM" placeholder="Confirm Password">
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<h3>CU<br>Boulder<br>Alumni</h3>
+					</th>
+					<th>
+						<input type="radio" name="AlumniYes" value="Yes"> Yes
+						<br>
+						<input type="radio" name="AlumniNo" value="No"> No
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<h3>CU<br>Boulder<br>Student</h3>
+					</th>
+					<th>
+						<input type="radio" name="StudentYes" value="Yes"> Yes
+						<br>
+						<input type="radio" name="StudentNo" value="No"> No
+					</th>
+				</tr>
+
+				<tr>
+					<th>
+						<h3>Student<br>Status</h3>
+					</th>
+					<th>
+						<input type="radio" name="studentUndergrad" value="Undergrad"> Undergrad<br>
+						<select name="select_choice">
+  							<option selected>Select Student Status</option>
+							  <option value="undergradFreshman">Freshman</option>
+							  <option value="undergradSophomore">Sophomore</option>
+							  <option value="undergradJunior">Junior</option>
+							  <option value="undergradSenior">Senior</option>
+						</select>
+						<br>
+						<input type="radio" name="studetnGraduate" value="Graduate"> Graduate<br>
+						<select name="select_choice">
+  							<option selected>Select Student Status</option>
+							  <option value="graduateMA">MA</option>
+							  <option value="graduateMBA">MBA</option>
+							  <option value="graduatePHD">PHD</option>
+						</select>
+					</th>
+				</tr>
+			</table>
 			<input type="submit" value="submit" class="btn btn-primary btn-block">
 		</form>
 	</div>
